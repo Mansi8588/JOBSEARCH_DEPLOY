@@ -1,0 +1,18 @@
+npm init
+
+npm bcrypt  --- password security
+
+npm cloudinary -- resume upload in form form jbp , imagge etc
+
+npm cookies-parser --- user authorization
+
+npm cors  --- frontend backend connect 
+
+npm express-fileupload --- upload file on cloudinary
+
+npm validation -- image validation 
+
+
+express.json --- pass only json file and ignore other file
+
+expresss.urlencoded -- conver string into json

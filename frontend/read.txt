@@ -1,0 +1,10 @@
+npm create vite@latest ./
+
+    React
+    JavaScript + SWC
+
+npm install  
+
+npm i react-router-dom axios react-icons
+
+ npm i react-hot-toast
