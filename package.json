@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon avishkar/server.js",
+    "dev": "nodemon server/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "nodemon avishkar/server.js"
+    "start": "nodemon server/server.js"
   },
   "author": "",
   "license": "ISC",

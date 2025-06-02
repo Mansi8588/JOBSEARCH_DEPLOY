@@ -8,7 +8,7 @@ import cors from "cors";
 import { errorMiddleware } from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
-import path from 'path'
+import path from "path";
 
 
 
@@ -47,7 +47,7 @@ dbConnection();
 
 app.use(express.static(path.join(_dirname,"/frontend/dist")))
 app.get('*',(_,res)=>{
-  res.sendFile(path.resolve(_dirname),"frontend","dist","index.html")
+  res.sendFile(path.resolve(_dirname,"frontend","dist","index.html"));
 })
 
 
