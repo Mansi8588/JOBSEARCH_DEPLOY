@@ -20,11 +20,11 @@ export const register = catchAsyncErrors(async (req, res, next) => {
     password,
   });
   sendToken(user, 200, res, "User Registered!");
-  // res.status(200).json({
-  //   success:true,
-  //   message:"User reg",
-  //   user,
-  // })
+  res.status(200).json({
+    success:true,
+    message:"User reg",
+    user,
+  })
 });
 
 
